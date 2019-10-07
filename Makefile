@@ -4,8 +4,6 @@
 
 up:
 	docker-compose up -d --build fluentd
-	sleep 3
-	docker-compose up -d --build
 .PHONY: up
 
 down:
